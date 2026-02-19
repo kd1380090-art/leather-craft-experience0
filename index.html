@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>藤原化工_レザークラフト体験</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rounded+Mplus+1c:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <section id="main">
+        <div class="main">
+            <div class="inner">
+                <!-- ハンバーガーボタン -->
+                <div class="hamburger">
+                    <img id="menuBtn" src="./img/main_menu.png" alt="メニュー">
+                </div>
+                
+                <!-- スライドメニュー -->
+                <nav class="hamburger-menu" id="hamburgerMenu">
+                    <a href="#top">トップ</a>
+                    <a href="#news">お知らせ</a>
+                    <a href="#make">コインケースの作り方</a>
+                    <a href="#voice">お客様の感想</a>
+                    <a href="#detail">体験について</a>
+                    <a href="#access">アクセス</a>
+                </nav>
+                <div class="main_top">
+                    <img src="./img/main_back1.png" alt="メインビジュアルの背景" class="main_back1">
+                    <img src="./img/logo.png" alt="ロゴ" class="main_logo">
+                </div>
+                <div class="main_in">
+                    <img src="./img/main_back.png" alt="メインビジュアルの背景" class="main_back">
+                    <div>
+                        <img src="./img/main_accent1.png" alt="あしらい" class="main_accent1">
+                        <img src="./img/main_accent2.png" alt="あしらい" class="main_accent2">
+                        <img src="./img/main_accent3.png" alt="あしらい" class="main_accent3">
+                    </div>
+                    <div>
+                        <img src="./img/main_pic1.png" alt="体験の様子の写真" class="main_pic1">
+                        <img src="./img/main_pic2.png" alt="完成したコインケースの写真" class="main_pic2">
+                        <img src="./img/main_txt.png" alt="神戸でつくろう　じぶんだけの革小物" class="main_txt">
+                    </div>
+                    <img src="./img/main_back3.png" alt="背景" class="main_back3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="test">
+        <div class="test">
+            <div class="inner">
+                <div class="test_txt">
+                    <img src="./img/test_accent1.png" alt="トンカチのイラスト" class="test_accent1">
+                    <p class="test_txt1">つくりたいものは人それぞれ。<br>
+                        かんたんな質問に答えるだけで、<br>
+                        きみにおすすめの革クラフトが見つかります。<br>
+                        どのタイプになるか、試してみよう！</p>
+                    <img src="./img/test_accent2.png" alt="コインケースのイラスト" class="test_accent2">
+                </div>
+                <div class="test_arrow">
+                    <img src="./img/test_arrow.png" alt="矢印">
+                </div>
+                <img src="./img/test_deco1.png" alt="飾り" class="test_deco1">
+
+                <div class="question-box">
+
+                    <div class="question-number">Question.01</div>
+
+                    <h3 class="question-title">
+                        つくるなら<br>
+                        どんなかんじがすき？
+                    </h3>
+
+                    <div class="choices">
+                        <input type="radio" id="q1a" name="q1" value="a">
+                        <label for="q1a">
+                            <span class="choice-letter">A</span>
+                            <span class="choice-text">ゆっくり ていねいに</span>
+                        </label>
+
+                        <input type="radio" id="q1b" name="q1" value="b">
+                        <label for="q1b">
+                            <span class="choice-letter">B</span>
+                            <span class="choice-text">たのしく さくさく</span>
+                        </label>
+
+                        <input type="radio" id="q1c" name="q1" value="c">
+                        <label for="q1c">
+                            <span class="choice-letter">C</span>
+                            <span class="choice-text">できあがりを はやくみたい</span>
+                        </label>
+                    </div>
+
+                </div>
+
+                <img src="./img/test_deco2.png" alt="飾り" class="test_deco2">
+                <!-- Question 02 -->
+                <div class="question-box">
+                    <div class="question-number">Question.02</div>
+                    <h3 class="question-title">
+                        どんなものを<br>
+                        つくってみたい？
+                    </h3>
+                    <div class="choices">
+                        <input type="radio" id="q2a" name="q2" value="a">
+                        <label for="q2a">
+                            <span class="choice-letter">A</span>
+                            <span class="choice-text">いつも つかうもの</span>
+                        </label>
+
+                        <input type="radio" id="q2b" name="q2" value="b">
+                        <label for="q2b">
+                            <span class="choice-letter">B</span>
+                            <span class="choice-text">おでかけに つかうもの</span>
+                        </label>
+
+                        <input type="radio" id="q2c" name="q2" value="c">
+                        <label for="q2c">
+                            <span class="choice-letter">C</span>
+                            <span class="choice-text">だれかに あげたいもの</span>
+                        </label>
+                    </div>
+                </div>
+
+                <img src="./img/test_deco3.png" alt="飾り" class="test_deco3">
+                <!-- Question 03 -->
+                <div class="question-box">
+                    <div class="question-number">Question.03</div>
+                    <h3 class="question-title">
+                        どれがすき？
+                    </h3>
+                    <div class="choices">
+                        <input type="radio" id="q3a" name="q3" value="a">
+                        <label for="q3a">
+                            <span class="choice-letter">A</span>
+                            <span class="choice-text">ちいさくて かわいい</span>
+                        </label>
+
+                        <input type="radio" id="q3b" name="q3" value="b">
+                        <label for="q3b">
+                            <span class="choice-letter">B</span>
+                            <span class="choice-text">おおきくて かっこいい</span>
+                        </label>
+
+                        <input type="radio" id="q3c" name="q3" value="c">
+                        <label for="q3c">
+                            <span class="choice-letter">C</span>
+                            <span class="choice-text">とくべつかんがある</span>
+                        </label>
+                    </div>
+                </div>
+
+                <img src="./img/test_deco4.png" alt="飾り" class="test_deco4">
+                <!-- Question 04 -->
+                <div class="question-box">
+                    <div class="question-number">Question.04</div>
+                    <h3 class="question-title">
+                        つくっているときは？
+                    </h3>
+                    <div class="choices">
+                        <input type="radio" id="q4a" name="q4" value="a">
+                        <label for="q4a">
+                            <span class="choice-letter">A</span>
+                            <span class="choice-text">せんせいのはなしをしっかりきく</span>
+                        </label>
+
+                        <input type="radio" id="q4b" name="q4" value="b">
+                        <label for="q4b">
+                            <span class="choice-letter">B</span>
+                            <span class="choice-text">じぶんでやってみたい</span>
+                        </label>
+
+                        <input type="radio" id="q4c" name="q4" value="c">
+                        <label for="q4c">
+                            <span class="choice-letter">C</span>
+                            <span class="choice-text">かんたんなのがいい</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="test-wrapper">
+                    <a href="#" class="test_button" id="resultBtn">結果を見る</a>
+                </div>
+                <div id="result-area"></div>
+
+                <div class="test_flow">
+                    <a href="https://www.jalan.net/kankou/spt_guide000000181488/?screenId=OUW3701&rootCd=3&dateUndecided=1&asbGenreCd1=g1_A7"
+                        class="test_button1">レザークラフト体験のご予約はこちら<span class="test_button1_a">→</span></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="news">
+            <div class="inner">
+                <div class="news_top">
+                    <p class="news_title">お知らせ</p>
+                    <p class="news_title2">news</p>
+                </div>
+                <div class="news_1">
+                    <p class="news_date">2025.2/27</p>
+                    <div class="news_box1">
+                        <a href="https://www.instagram.com/ashioto118/" class="news_txt">新レザークラフト体験はじめました!</a>
+                        <p class="news_arrow">→</p>
+                    </div>
+                </div>
+                <div class="news_2">
+                    <p class="news_date">2025.2/27</p>
+                    <div class="news_box2">
+                        <a href="https://www.instagram.com/ashioto118/" class="news_txt">新レザークラフト体験はじめました!</a>
+                        <p class="news_arrow">→</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="opus">
+        <div class="inner">
+            <div class="opus">
+                <img src="./img/opus_txt1.png" alt="ほかにもたくさんのクラフトができるよ。" class="opus_txt1">
+                <img src="./img/opus_accent1.png" alt="飾り" class="opus_accent1">
+                <img src="./img/opus_1.png" alt="" class="opus_1">
+                <img src="./img/opus_2.png" alt="" class="opus_2">
+                <img src="./img/opus_3.png" alt="" class="opus_3">
+                <img src="./img/opus_4.png" alt="" class="opus_4">
+                <img src="./img/opus_5.png" alt="" class="opus_5">
+                <img src="./img/opus_txt2.png" alt="どれをつくりたいかそうぞうしてみよう！" class="opus_txt2">
+                <img src="./img/opus_accent3.png" alt="飾り" class="opus_accent3">
+                <img src="./img/opus_7.png" alt="" class="opus_7">
+                <img src="./img/opus_accent2.png" alt="飾り" class="opus_accent2">
+            </div>
+
+            <div id="make">
+                <div class="make">
+                    <img src="./img/make_back.png" alt="背景" class="make_back">
+                    <div class="make_title">
+                        <div class="make_top_box">
+                            <p class="make_title1">意外とかんたん!?</p>
+                            <img src="./img/make_no1.png" alt="人気No.1" class="make_no1">
+                        </div>
+                        <img src="./img/make_top.png" alt="コインケース" class="make_top">
+                        <p class="make_title2">の作り方</p>
+                    </div>
+
+                    <div class="make_step1">
+                        <img src="./img/make_pic1.png" alt="革を広げている状態" class="make_pic1">
+                        <img src="./img/make_01.png" alt="ステップ01" class="make_01">
+                        <img src="./img/make_shapes1.png" alt="図形" class="make_shapes1">
+                        <p class="make_text1">
+                            好きな革を選んで、<br>
+                            赤ちゃんがバンザイしている<br>
+                            向きに置こう。
+                        </p>
+                        <img src="./img/make_arrow.png" alt="矢印" class="make_arrow">
+                    </div>
+                    <div class="make_step2">
+                        <img src="./img/make_pic2.png" alt="トンカチで叩く準備" class="make_pic2">
+                        <img src="./img/make_02.png" alt="ステップ02" class="make_02">
+                        <img src="./img/make_shapes2.png" alt="図形" class="make_shapes2">
+                        <p class="make_text2">
+                            頭の場所に１のボタンを置くよ。<br>
+                            左右の手→頭の順番で穴を通して<br>
+                            トンカチで思いっきり叩こう。
+                        </p>
+                        <img src="./img/make_arrow2.png" alt="矢印" class="make_arrow2">
+                    </div>
+                    <div class="make_step3">
+                        <img src="./img/make_pic3.png" alt="トンカチで叩く準備" class="make_pic3">
+                        <img src="./img/make_03.png" alt="ステップ03" class="make_03">
+                        <img src="./img/make_shapes3.png" alt="図形" class="make_sapes3">
+                        <p class="make_text3">
+                            お腹の場所に２のボタンを置くよ。<br>
+                            左右の足の穴を通して<br>
+                            トンカチで思いっきり叩こう。
+                        </p>
+                        <img src="./img/make_arrow3.png" alt="矢印" class="make_arrow3">
+                    </div>
+                    <div class="make_step4">
+                        <img src="./img/make_pic4.png" alt="トンカチで叩く準備" class="make_pic4">
+                        <img src="./img/make_04.png" alt="ステップ04" class="make_04">
+                        <img src="./img/make_shapes4.png" alt="図形" class="make_sapes4">
+                        <p class="make_text4">
+                            下の部分をばボタンで留めて、<br>
+                            しっかりとパチッと留まれば<br>
+                            完成！！
+                        </p>
+                        <img src="./img/make_arrow4.png" alt="矢印" class="make_arrow4">
+                    </div>
+                    <div class="make_completed">
+                        <img src="./img/make_txt1.png" alt="コインケース" class="make_txt1">
+                        <img src="./img/make_pouch.png" alt="コインケースの写真" class="make_pouch">
+                        <img src="./img/make_txt2.png" alt="完成" class="make_txt2">
+                    </div>
+
+
+                    <div class="make_deko">
+                        <img src="./img/make_parts.png" alt="デコ背景" class="make_parts">
+                        <div class="make_parts_txt">
+                            <p class="make_parts_txt1">
+                                オリジナルデザインを<br>
+                                楽しもう！
+                            </p>
+                            <p class="make_parts_txt2">
+                                ピンやビーズ、革のお花で、<br>
+                                あなただけのコインケースに。<br>
+                                お子さまから大人まで、気軽に楽しめます。
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/make_parts0.png" alt="飾り" class="make_parts0">
+                        <img src="./img/make_parts1.png" alt="飾り" class="make_parts1">
+                        <img src="./img/make_parts3.png" alt="飾り" class="make_parts3">
+                        <img src="./img/make_parts4.png" alt="飾り" class="make_parts4">
+                        <img src="./img/make_parts5.png" alt="飾り" class="make_parts5">
+                        <img src="./img/make_parts6.png" alt="飾り" class="make_parts6">
+                        <img src="./img/make_parts8.png" alt="飾り" class="make_parts8">
+                        <img src="./img/make_parts_pic1.png" alt="パーツを選んでいる様子" class="make_parts_pic1">
+                        <img src="./img/make_parts_pic2.png" alt="パーツを選んでいる様子" class="make_parts_pic2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="opus1">
+        <div class="inner">
+            <div class="opus1">
+                <img src="./img/opus2_1.png" alt="" class="opus2_1">
+                <img src="./img/opus2_2.png" alt="" class="opus2_2">
+                <img src="./img/opus2_3.png" alt="" class="opus2_3">
+                <img src="./img/opus2_4.png" alt="" class="opus2_4">
+                <img src="./img/opus2_accent1.png" alt="あしらい" class="opus2_accent1">
+                <img src="./img/opus2_accent2.png" alt="あしらい" class="opus2_accent2">
+                <img src="./img/opus2_accent3.png" alt="あしらい" class="opus2_accent3">
+            </div>
+        </div>
+    </section>
+
+    <section id="voice">
+        <div class="inner">
+            <div class="voice">
+                <div class="voice_top_box">
+                    <p class="voice_top">お客さまの感想</p>
+                </div>
+
+                <div class="voice-slider">
+                    <button class="arrow left">
+                        <img src="./img/voice_arrow2.png" alt="前へ">
+                    </button>
+                    <div class="voice-window">
+                        <div class="voice-track">
+                            <img src="./img/voice_pic3.png" class="voice-slide">
+                            <img src="./img/voice_pic01.png" class="voice-slide">
+                            <img src="./img/voice_pic2.png" class="voice-slide">
+                        </div>
+                    </div>
+                    <button class="arrow right">
+                        <img src="./img/voice_arrow1.png" alt="次へ">
+                    </button>
+                </div>
+                <div class="voice_button">
+                    <a href="https://www.jalan.net/kankou/spt_guide000000181488/kuchikomi/?screenId=OUW3701&rootCd=3&dateUndecided=1&asbGenreCd1=g1_A7" class="voice_button_in">
+                        もっと見る<span class="voice_button_arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="opus3">
+        <div class="inner">
+            <div class="opus3">
+                <img src="./img/opus3_1.png" alt="" class="opus3_1">
+                <img src="./img/opus3_2.png" alt="" class="opus3_2">
+                <img src="./img/opus3_3.png" alt="" class="opus3_3">
+                <img src="./img/opus3_4.png" alt="" class="opus3_4">
+                <img src="./img/opus3_5.png" alt="" class="opus3_5">
+                <img src="./img/opus3_6.png" alt="" class="opus3_6">
+                <img src="./img/opus3_accent1.png" alt="飾り" class="opus3_accent1">
+                <img src="./img/opus3_accent2.png" alt="飾り" class="opus3_accent2">
+                <img src="./img/opus3_accent3.png" alt="飾り" class="opus3_accent3">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="detail">
+        <div class="inner">
+            <div class="detail">
+                <img src="./img/detail_back.png" alt="背景" class="detail_back">
+                <img src="./img/detail_title.png" alt="レザークラフト体験について" class="detail_title">
+                <div class="detail_txt_box">
+                    <p class="detail_text1">
+                        本クラフト体験では、<br>
+                        本革ならではの質感や香りを楽しみながら、<br>
+                        「つくる楽しさ」を感じられる体験を<br>
+                        ご用意しています。
+                    </p>
+                    <p class="detail_text2">
+                        短時間で完成する内容のため、<br>
+                        初めての方や小さなお子さまでも<br>
+                        安心してご参加いただけます。
+                    </p>
+                </div>
+
+                <div class="detail_about">
+                    <div class="detail_about_wrap1">
+                        <p class="detail_about_title1">この体験の特長</p>
+                        <div class="detail_about_in1">
+                            <div class="detail_item1">
+                                <p class="detail_label1">本革・副産物レザーを使用</p>
+                                <div class="detail_text_box1">
+                                    <p>
+                                        食肉の副産物として生まれた革を活用し、<br>
+                                        環境に配慮したものづくりを行っています。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="detail_item2">
+                                <p class="detail_label1">手作り体験ならではの学び</p>
+                                <div class="detail_text_box2">
+                                    <p>
+                                        自分の手で作ることで、<br>
+                                        集中力や達成感を育みます。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="detail_item3">
+                                <p class="detail_label1">デザインは自由</p>
+                                <div class="detail_text_box3">
+                                    <p>
+                                        色やパーツを選んで、<br>
+                                        世界にひとつだけの作品が完成します。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail_about_wrap2">
+                        <p class="detail_about_title2">体験時間について</p>
+                        <div class="experience_time_box">
+                            <div class="experience_time_box_in">
+                                <div class="experience_time_row1">
+                                    <p class="experience_time_label1">
+                                        かんたんなクラフト
+                                    </p>
+                                    <p class="experience_time_duration1">
+                                        約<span class="experience_span">10〜15</span>分
+                                    </p>
+                                </div>
+
+                                <div class="experience_time_divider"></div>
+
+                                <div class="experience_time_row2">
+                                    <p class="experience_time_label2">
+                                        少し工程の多いクラフト
+                                    </p>
+                                    <p class="experience_time_duration2">
+                                        約<span class="experience_span">30</span>分
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./img/detail_plus.png" alt="＋" class="experience_time_plus">
+                            </div>
+                            <!-- 選ぶ時間ボックス -->
+                            <div class="experience_time_select">
+                                革・パーツを選ぶ時間
+                            </div>
+
+                            <!-- 下の文章 -->
+                            <p class="experience_time_note">
+                                お客様のペースに合わせて進行いたしますので、<br>
+                                途中で無理をすることはありません。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="detail_about_wrap3">
+                        <p class="detail_about_title3">ご予約について</p>
+                        <div class="detail_about3_box">
+                            <p class="detail_about3_txt1">ご予約なしでもご参加いただけます。</p>
+                            <p class="detail_about3_txt2">
+                                お出かけの途中や空いた時間にも、<br>
+                                気軽に体験していただけます。
+                            </p>
+                            <p class="detail_about3_txt3">※じゃらんからの事前予約も可能です。</p>
+                            <a href="https://www.jalan.net/kankou/spt_guide000000181488/?screenId=OUW3701&rootCd=3&dateUndecided=1&asbGenreCd1=g1_A7" class="detail_about3_buttom">
+                                ご予約はこちらから<span class="detail_about3_buttom_a">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="access">
+        <div class="inner">
+            <div class="access">
+                <div class="access_top">
+                    <p class="access_title">アクセス</p>
+                    <p class="access_title2">access</p>
+                </div>
+                <div class="access_btn">
+                    <img src="./img/access_map.png" alt="地図" class="access_map">
+                    <a href="https://www.google.co.jp/maps/place/%E3%80%92650-0004+%E5%85%B5%E5%BA%AB%E7%9C%8C%E7%A5%9E%E6%88%B8%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%B8%AD%E5%B1%B1%E6%89%8B%E9%80%9A%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%95%E2%88%92%EF%BC%97/@34.695967,135.1848191,17z/data=!3m1!4b1!4m6!3m5!1s0x60008ee1db1f1f67:0xcaa78086451b0f52!8m2!3d34.6959626!4d135.187394!16s%2Fg%2F11xvg_w_s8?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D" class="access_button">
+                        Google Map<span class="access_button_a">→</span>
+                    </a>
+                </div>
+                <div class="access_address">
+                    <p class="access_address1">〒650-0004</p>
+                    <p class="access_address2">神戸市中央区中山手通 2-25-7</p>
+                </div>
+                <div class="access_parking">
+                    <p class="access_parking_title">北野工房のまちneoのおすすめ駐車場</p>
+                    <div class="access_parking_txt">
+                        <div class="access_parking1">
+                            <div class="access_parking_box">
+                                <img src="./img/access_parking_img1.png" alt="1" class="access_parking_img">
+                                <p class="access_parking_top">三井のリパーク山本通第4駐車場</p>
+                            </div>
+                            <div class="access_parking_in">
+                                <p>
+                                    通常料金 : 20分 / 300円<br>
+                                    最大料金 : 月~金 1,300円 / 土日祝 1,800円
+                                </p>
+                            </div>
+                        </div>
+                        <div class="access_parking2">
+                            <div class="access_parking_box">
+                                <img src="./img/access_parking_img2.png" alt="2" class="access_parking_img">
+                                <p class="access_parking_top">三井のリパーク山本通第2駐車場</p>
+                            </div>
+                            <div class="access_parking_in">
+                                <p>
+                                    通常料金 : 20分 / 300円<br>
+                                    最大料金 : 月~金 1,300円 / 土日祝 1,800円
+                                </p>
+                            </div>
+                        </div>
+                        <div class="access_parking3">
+                            <div class="access_parking_box">
+                                <img src="./img/access_parking_img3.png" alt="3" class="access_parking_img">
+                                <p class="access_parking_top">プチパークトアロード東駐車場</p>
+                            </div>
+                            <div class="access_parking_in">
+                                <p>
+                                    通常料金 : 20分 / 300円<br>
+                                    最大料金 : 月~金 1,200円 / 土日祝 適用なし
+                                </p>
+                            </div>
+                        </div>
+                        <div class="access_parking4">
+                            <div class="access_parking_box">
+                                <img src="./img/access_parking_img4.png" alt="4" class="access_parking_img">
+                                <p class="access_parking_top">P.ZONE 中山手通駐車場</p>
+                            </div>
+                            <div class="access_parking_in">
+                                <p>
+                                    通常料金 : 20分 / 300円<br>
+                                    最大料金 : 全日 1,400円 (8:00~20:00)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="access_parking5">
+                            <div class="access_parking_box">
+                                <img src="./img/access_parking_img5.png" alt="5" class="access_parking_img">
+                                <p class="access_parking_top">P-CLUB 中山手通駐車場</p>
+                            </div>
+                            <div class="access_parking_in">
+                                <p>
+                                    通常料金 : 20分 / 200円<br>
+                                    最大料金 : 月~金 900円 / 土日祝 1,600円
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="inner">
+            <div class="footer">
+                <div class="footer_menu_back">
+                    <img src="./img/footer_menu_under.png" alt="メニューバーの背景" class="footer_menu_under">
+                    <div class="footer_menu">
+                        <a href="#top">トップ</a>
+                        <a href="#news">お知らせ</a>
+                        <a href="#make">コインケースの作り方</a>
+                        <a href="#voice">お客様の感想</a>
+                        <a href="#detail">体験について</a>
+                        <a href="#access">アクセス</a>
+                    </div>
+                </div>
+                <div class="footer_button">
+                    <a href="http://fujiwara-kako.jp/index.html">
+                        <img src="./img/footer_btn1.png" alt="アシオト公式サイト　藤原加工株式会社" class="footer_btn1">
+                    </a>
+                    <a href="http://192.168.3.126:55804/index.html">
+                        <img src="./img/footer_btn2.png" alt="革靴の商品紹介サイト" class="footer_btn2">
+                    </a>
+                </div>
+                <div class="footer_sns">
+                    <img src="./img/footer_icon1.png" alt="インスタグラム" class="footer_icon1">
+                </div>
+                <p class="footer_copy">
+                    © 2026
+                </p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
